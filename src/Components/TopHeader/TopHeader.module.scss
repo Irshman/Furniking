@@ -1,0 +1,44 @@
+@import '../../vars.scss'; 
+
+.top_header {
+  background-color: $primaryColor;
+  color: $white;
+  padding: 0px 1.25rem;
+  @media (max-width:768px){
+    // display: none;
+  }
+
+  &__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.125rem;
+
+    @media (max-width:425px){
+      justify-content: center;
+    }
+  }
+
+  &__wrap {
+    max-width: 17.5rem;
+    width: 100%;
+    display: flex;
+  }
+
+  &__title {
+    margin: 0;
+    
+    @media (max-width:425px){
+      display: none;
+    }
+  }
+
+  &__hr {
+    width: 1.1875rem;
+    height: 0.1375rem;
+    transform: rotate(90deg);
+    background-color: $white;
+    border: none;
+    border-radius: 0.025rem;
+  }
+}

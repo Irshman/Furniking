@@ -1,0 +1,14 @@
+@import '../../vars.scss'; 
+
+.articles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 1.375rem 1.625rem;
+  // margin-bottom: 115px;
+  margin-bottom: clamp(1.875rem, 6vw, 7.1875rem);
+  padding: 0 1.25rem;
+
+  @media (max-width:425px){
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}

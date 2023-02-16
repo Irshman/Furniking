@@ -1,0 +1,9 @@
+@import '../../vars.scss'; 
+
+.hero {
+  margin-bottom: 4.0625rem;
+
+  &__body {
+    display: flex;
+  }
+}

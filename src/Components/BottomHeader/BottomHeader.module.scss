@@ -1,0 +1,23 @@
+@import '../../vars.scss'; 
+
+.header {
+  background-color: $greyBgColor;
+  width: 100%;
+  
+  &__body {
+    height: 4.1875rem;
+    display: flex;
+    align-items: center;
+
+    @media (max-width:768px){
+      justify-content: space-between;
+    }
+  }
+
+  &__wrap {
+    margin-left: 1.25rem;
+    @media (min-width:768px){
+      display: none;
+    }
+  }
+}

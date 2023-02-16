@@ -1,0 +1,29 @@
+@import '../../vars.scss'; 
+
+.swiper_class {
+  background-color: $primaryColor;
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 0.4688rem;
+}
+
+.swiper-pagination-bullet-active{
+  width: 24px;
+  border-radius: 8px;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width:768px){
+    flex-direction: column;
+  }
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  margin-bottom: 1.25rem;
+}

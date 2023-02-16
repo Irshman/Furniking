@@ -1,0 +1,23 @@
+@import '../../vars.scss'; 
+
+.item {
+  list-style: none;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  letter-spacing: 0.02em;
+  color: $textGrey;
+  padding: 0.625rem 1.875rem 0.875rem;
+  transition: $trs;
+
+  &:not(:last-child) {
+    border-bottom: 0.05rem solid #E3E3E3;
+  }
+
+  @media (any-hover: hover){
+    &:hover{
+      color: $white;
+      cursor: pointer;
+      background-color: $primaryHoverColor;
+    }
+  }
+}

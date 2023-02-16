@@ -1,0 +1,21 @@
+@import '../../vars.scss'; 
+
+.button {
+  padding: 0.625rem 1.125rem;
+  background-color: $primaryColor;
+  border: none;
+  font-weight: 400;
+  font-size: clamp(0.875rem, 4vw, 1rem);
+  line-height: 1.25rem;
+  color: $white;
+  border-radius: $br;
+  text-transform: uppercase;
+  transition: $trs;
+
+  @media (any-hover: hover){
+    &:hover{
+      background-color: $primaryHoverColor;
+      cursor: pointer;
+    }
+  }
+}

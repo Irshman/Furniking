@@ -1,0 +1,12 @@
+@import '../../vars.scss'; 
+
+.frames {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5625rem;
+
+  bottom: -100%;
+  right: 0.4375rem;
+  transition: $trs;
+}

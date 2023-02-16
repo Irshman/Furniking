@@ -1,0 +1,15 @@
+@import '../../vars.scss'; 
+
+.button {
+  background-color: transparent;
+  color: $white;
+  border: none;
+  display: flex;
+
+  @media (any-hover: hover){
+    &:hover{
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+}

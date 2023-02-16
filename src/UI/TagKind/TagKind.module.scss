@@ -1,0 +1,17 @@
+@import '../../vars.scss'; 
+
+.tag {
+  background-color: $greyBgColor;
+  color: $primaryColor;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem 0.4375rem;
+  border-radius: 0.1875rem;
+  line-height: normal;
+
+  span {
+    text-transform: uppercase;
+    margin-left: 0.375rem;
+  }
+}

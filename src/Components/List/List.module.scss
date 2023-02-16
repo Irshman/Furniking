@@ -1,0 +1,34 @@
+@import '../../vars.scss'; 
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  color: $textGrey;
+  font-size: 1.125rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.01em;
+
+  &__title {
+    font-weight: 500;
+  }
+
+  &__list {
+    list-style: none;
+  }
+
+  &__item {
+    font-weight: 400;
+    transition: $trs;
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    @media (any-hover: hover){
+      &:hover{
+        color: $primaryColor;
+      }
+    }
+  }
+}

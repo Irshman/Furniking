@@ -1,0 +1,55 @@
+@import '../../vars.scss'; 
+
+.tag_new {
+  width: 2.8125rem;
+  height: 1.3125rem;
+  border-radius: 0 0 0.3125rem 0rem;
+  color: $white;
+  font-family: 'Mulish';
+  font-weight: 600;
+  font-size: 12px;  
+  text-align: center;
+  letter-spacing: 0.008em;
+  background-color: $primaryColor;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  &::first-letter {
+    text-transform: uppercase;
+  }
+}
+.tag_sale {
+  width: 2.8125rem;
+  height: 1.3125rem;
+  border-radius: 0 0 0.3125rem 0rem;
+  color: $white;
+  font-family: 'Mulish';
+  font-weight: 600;
+  font-size: 12px;  
+  text-align: center;
+  letter-spacing: 0.008em;
+  background-color: $blueColor;
+  position: absolute;
+  top: 0;
+  left: 0;
+  &::first-letter {
+    text-transform: uppercase;
+  }
+}
+.tag_discount {
+  width: 2.8125rem;
+  height: 1.3125rem;
+  border-radius: 0 0 0.3125rem 0rem;
+  color: $white;
+  font-family: 'Mulish';
+  font-weight: 600;
+  font-size: 12px;  
+  text-align: center;
+  letter-spacing: 0.008em;
+  background-color: $coralColor;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+

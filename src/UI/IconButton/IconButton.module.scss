@@ -1,0 +1,30 @@
+@import '../../vars.scss'; 
+
+.button {
+  background-color: transparent;
+  border: none;
+  position: relative;
+  transition: $trs;
+
+  &__notification {
+    width: 0.75rem;
+    height: 0.75rem;
+    background-color: $primaryColor;
+    color: $white;
+    font-size: 0.4375rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (any-hover: hover){
+    &:hover{
+      cursor: pointer;
+      transform: scale(1.3);
+    }
+  }
+}

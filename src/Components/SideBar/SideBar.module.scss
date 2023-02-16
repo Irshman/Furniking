@@ -1,0 +1,18 @@
+@import '../../vars.scss'; 
+
+.sidebar {
+  max-width: 260px;
+  width: 100%;
+  background-color: $greyBgColor;
+
+  @media (max-width:1024px){
+    position: absolute;
+    top: 0;
+    left: -100%;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+  }
+}

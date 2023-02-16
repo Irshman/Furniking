@@ -1,0 +1,26 @@
+@import '../../vars.scss'; 
+
+
+.tabs {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: clamp(1rem, 4vw, 4.375rem);
+  font-family: 'Mulish';
+  font-weight: 600;
+  font-size: clamp(0.875rem, 2vw, 1.5rem);
+  line-height: 1.875rem;
+  color: $greyTitle;
+  transition: $trs;
+  // margin-bottom: 4.375rem;
+  margin-bottom: clamp(1.875rem, 8vw, 4.375rem);
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &__active {
+    color: $primaryColor;
+  }
+}

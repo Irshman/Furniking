@@ -1,0 +1,55 @@
+@import '../../vars.scss'; 
+
+
+.select {
+  display: inline-flex;
+  position: relative;
+  justify-content: center;
+  max-width: 7.8125rem;
+  width: 100%;
+  font-size: 0.875rem;
+  
+  &__header {
+    display: flex;
+    align-items: center;
+  }
+
+  &__current {
+    font-size: 0.875rem;
+    line-height: 1.1875rem;
+    margin-right: 0.5rem;
+
+    @media (any-hover: hover){
+      &:hover{
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__body {
+    color: $textGrey;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 1.5625rem;
+    background-color: $white;
+    padding: 0.5rem;
+    border-radius: $br;
+    box-shadow: $bs;
+    z-index: 5;
+  }
+
+  &__item {
+    @media (any-hover: hover){
+      &:hover{
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+    
+    &:not(:last-child) {
+      margin-bottom: 5px;
+    }
+  }
+}

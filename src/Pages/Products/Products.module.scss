@@ -1,0 +1,15 @@
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // margin-bottom: 120px;
+  margin-bottom: clamp(1.875rem, 6vw, 7.5rem);
+  padding: 0 1.25rem;
+
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 45px 30px; 
+  }
+}

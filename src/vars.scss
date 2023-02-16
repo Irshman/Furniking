@@ -1,0 +1,25 @@
+$black: #2F2F2F;
+$white: #ffffff;
+$textGrey: #555555;
+$textGrey2: #515151;
+$primaryColor: #7AC751;
+$primaryHoverColor: #4ca71a;
+$unActiveColor: rgba(122, 199, 81, 0.29);
+
+$blueColor: #00B7F1;
+$coralColor: #FF6868;;
+
+$greyBgColor: #F7F8FA;
+$greyTitle:#C2C2C2;
+$opacityGrey: rgba(117, 117, 117, 0.71);
+
+$sliderBackground: #F8FAFB;
+
+$br: 0.3125rem;
+$trs: all .3s ease-in;
+$bs: 0px 2px 33px rgba(0, 0, 0, 0.09);
+
+@mixin gradient {
+  background: rgb(241,250,255);
+  background: linear-gradient(145deg, rgba(241,250,255,1) 0%, rgba(241,250,255,1) 100%);
+}

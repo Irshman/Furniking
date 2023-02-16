@@ -1,0 +1,13 @@
+
+.offers {
+  margin-bottom: 7.5rem;
+  margin-bottom: clamp(1.875rem, 8vw, 7.5rem);
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  padding: 0 1.25rem;
+}
