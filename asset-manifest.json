@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/Furniking/static/css/main.a1f030c6.css",
+    "main.js": "/Furniking/static/js/main.d981d903.js",
+    "static/media/article_3.png": "/Furniking/static/media/article_3.6f500993b88711f4511e.png",
+    "static/media/item1.png": "/Furniking/static/media/item1.3e186e63249dc7756a6a.png",
+    "static/media/article_1.png": "/Furniking/static/media/article_1.4fc99e129400be3c7163.png",
+    "static/media/minifurniture3.png": "/Furniking/static/media/minifurniture3.7a029c31e068ca7c45e7.png",
+    "static/media/Furniture1.png": "/Furniking/static/media/Furniture1.cf91f58d23d647716834.png",
+    "static/media/article_2.png": "/Furniking/static/media/article_2.cd3b1b14f09da613acad.png",
+    "static/media/55.png": "/Furniking/static/media/55.672fdd73c844696f1808.png",
+    "static/media/66.png": "/Furniking/static/media/66.1ff52a6dd43a7187759f.png",
+    "static/media/44.png": "/Furniking/static/media/44.cc127dd506f2c83e7e20.png",
+    "static/media/article_4.png": "/Furniking/static/media/article_4.1a330597bcc889ef7e7a.png",
+    "static/media/11.png": "/Furniking/static/media/11.1e02075f78618b0fb0b5.png",
+    "static/media/minifurniture2.png": "/Furniking/static/media/minifurniture2.9fc07be0fe89ad2492d0.png",
+    "static/media/minifurniture1.png": "/Furniking/static/media/minifurniture1.b41c34ff1ab3c2ede8bd.png",
+    "static/media/special_item_2.png": "/Furniking/static/media/special_item_2.b41f4237644cdef9ac63.png",
+    "static/media/88.png": "/Furniking/static/media/88.58a264d045a2ec3ccf2f.png",
+    "static/media/item2.png": "/Furniking/static/media/item2.34703c85f0dccf227d19.png",
+    "static/media/item3.png": "/Furniking/static/media/item3.3c3ffdea9f6f60725c43.png",
+    "static/media/77.png": "/Furniking/static/media/77.64541c925a30665a489a.png",
+    "static/media/8.png": "/Furniking/static/media/8.ac5e84c56227f40654e2.png",
+    "static/media/special_item_1.png": "/Furniking/static/media/special_item_1.962483973a85911ee46a.png",
+    "static/media/4.png": "/Furniking/static/media/4.57c72fbba4c15ae62758.png",
+    "static/media/5.png": "/Furniking/static/media/5.dbedcd5d3becfe64d3e7.png",
+    "static/media/1.png": "/Furniking/static/media/1.409183c45b069d968cc0.png",
+    "static/media/6.png": "/Furniking/static/media/6.ecbededfeaba51899c9b.png",
+    "static/media/2.png": "/Furniking/static/media/2.5dcebe49d4b98ea46097.png",
+    "static/media/7.png": "/Furniking/static/media/7.0d88ec971454a6059884.png",
+    "static/media/3.png": "/Furniking/static/media/3.b0a4686dc235ec53a76a.png",
+    "static/media/33.png": "/Furniking/static/media/33.79e7db42ad4683343243.png",
+    "static/media/22.png": "/Furniking/static/media/22.6b341aafd5ea8176f397.png",
+    "static/media/people.png": "/Furniking/static/media/people.0e4fca043ab67eed29b7.png",
+    "index.html": "/Furniking/index.html",
+    "main.a1f030c6.css.map": "/Furniking/static/css/main.a1f030c6.css.map",
+    "main.d981d903.js.map": "/Furniking/static/js/main.d981d903.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1f030c6.css",
+    "static/js/main.d981d903.js"
+  ]
+}
